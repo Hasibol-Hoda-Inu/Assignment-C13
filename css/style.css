@@ -1,0 +1,1060 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.clr {
+    clear: both;
+}
+
+/* nav part start */
+nav {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.logo a img {
+    margin-top: 40px;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.menu ul {
+    text-align: end;
+    padding-top: 60px;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    color: #c7b299;
+}
+
+/* nav part end */
+/* banner part start */
+
+.hero-text h2 {
+    font-size: 36px;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    /* padding-top: 380px; */
+}
+
+.hero-text h1 {
+    font-size: 52px;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    /* padding-left: 270px;
+    padding-right: 270px; */
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.get-started a {
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    background-color: #c7b299;
+    padding: 20px 40px;
+    display: inline-block;
+    /* margin-bottom: 360px; */
+    border-bottom: 2px solid #736357;
+    border-radius: 5px;
+}
+
+.circules i {
+    color: aliceblue;
+    font-size: 16px;
+    padding: 0 5px 0px 5px;
+}
+
+#bennar {
+    position: relative;
+}
+
+.hero {
+    position: absolute;
+    top: 580px;
+    left: 50%;
+    z-index: 99;
+    transform: translate(-50%, -50%);
+}
+
+/* banner part end */
+/* what we do part start */
+.workleft {
+    width: 25%;
+    cursor: pointer;
+    float: left;
+}
+
+.workleft:hover h3::after {
+    opacity: 1;
+}
+
+.workleft:hover h3 {
+    color: #c7b299;
+}
+
+.workleft:hover i {
+    color: #c7b299;
+}
+
+.workleft h3::after {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    top: 160px;
+    left: 95px;
+    background-color: #c7b299;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.workleft h3 {
+    color: #555555;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    transition: 0.3s;
+}
+
+.workleft i {
+    font-size: 48px;
+    color: #555555;
+    padding-left: 123px;
+    padding-top: 80px;
+    transition: 0.3s;
+}
+
+.workleft p {
+    font-size: 14px;
+    color: #8c8c8c;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    width: 270px;
+    text-align: center;
+}
+
+/* what we do part end */
+/* port images part start */
+.textpart {
+    text-align: center;
+    padding-top: 160px;
+}
+
+.images-part .imge img {
+    width: 1170px;
+}
+
+.textpart h3 {
+    font-size: 30px;
+    color: #555555;
+    font-weight: 600;
+    padding-bottom: 28px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.textpart p {
+    font-size: 16px;
+    color: #8c8c8c;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 190px 40px 215px;
+}
+
+.extra-things {
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(to right, rgb(33, 27, 25), rgb(78, 52, 39));
+}
+
+.extra-things h3 {
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.extra-things h3 span {
+    color: #c7b299;
+}
+
+.extra-things p {
+    font-family: 'Montserrat', sans-serif;
+    color: #615855;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.butn a {
+    padding: 20px 40px;
+    background-color: #998675;
+    color: aliceblue;
+    border-bottom: 2px solid #736357;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.forneed {
+    position: relative;
+}
+
+.butn {
+    text-align: end;
+}
+
+/* port images part end */
+/* our projects part start */
+
+.mixit-btn {
+    text-align: center;
+}
+
+.mixit-btn button {
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.mixit-btn button:hover {
+    background-color: #998675;
+    color: white;
+}
+
+.txtpart {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.txtpart h3 {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+    font-weight: 700;
+}
+
+.txtpart p {
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 30px 130px 0px 130px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+}
+
+.investigation {
+    width: 33.33%;
+    float: left;
+    cursor: pointer;
+}
+
+.project-detail {
+    background-color: #ebebeb;
+    position: relative;
+}
+
+.project-detail::after {
+    width: 30px;
+    height: 30px;
+    background-color: #ebebeb;
+    transform: rotate(45deg);
+    position: absolute;
+    content: '';
+    top: -14px;
+    left: 20px;
+    transition: 0.4s;
+}
+
+.investigation:hover .project-detail::after {
+    background-color: #362f2d;
+}
+
+.project-detail h3 {
+    padding: 30px 0 15px 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #c7b299;
+    font-weight: 600;
+
+}
+
+.project-detail p {
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #d1d1d1;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* hover effect below */
+.project-img {
+    position: relative;
+}
+
+.proimg-overlay {
+    position: absolute;
+    width: 370px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.proimg-overlay i {
+    position: absolute;
+    top: 130px;
+    left: 160px;
+    font-size: 18px;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.proimg-overlay i.fa-link:hover {
+    color: #c7b299;
+}
+
+.proimg-overlay i.fa-search:hover {
+    color: #c7b299;
+}
+
+.proimg-overlay i.fa-search {
+    padding-left: 80px;
+}
+
+.investigation:hover .proimg-overlay {
+    opacity: 1;
+}
+
+.detail-over {
+    background-color: #362f2d;
+    width: 370px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.investigation:hover .detail-over {
+    opacity: 1;
+}
+
+.detail-over h3 {
+    color: white;
+    padding-left: 10px;
+}
+
+.detail-over p {
+    color: #c7b299;
+    padding-left: 10px;
+}
+
+/* button below */
+.vmpb {
+    text-align: center;
+}
+
+.vmpb button {
+    padding: 20px 45px;
+    color: white;
+    background-color: #998675;
+    border: 0;
+    border-bottom: 2px solid #736357;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+/* our projects part end */
+/* waxom video part start */
+#video-banner {
+    background: url(../images/video-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 705px;
+    margin-top: 80px;
+    position: relative;
+    /* height: 705px; */
+}
+
+.vicon {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vicon i {
+    font-size: 70px;
+    color: white;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.textdecor {
+    text-align: center;
+}
+
+.textdecor h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding-top: 360px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.textdecor p {
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 230px 0 230px;
+    line-height: 28px;
+}
+
+/* waxom video part end */
+/* mobile review part start */
+.mobile-device {
+    width: 50%;
+    float: left;
+}
+
+.mobile-device img {
+    margin-top: 80px;
+}
+
+.device-details {
+    width: 50%;
+    float: left;
+}
+
+.device-details h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 200px;
+}
+
+.tomakeniyeiprvlb p {
+    font-size: 16;
+    font-weight: 300;
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.listed p i {
+    font-size: 16px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #c7b299;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.listed p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #8c8c8c;
+    padding-bottom: 14px;
+}
+
+/* mobile review part end */
+/* counter start */
+#counter-here {
+    width: 100%;
+
+    background-image: linear-gradient(to right, rgb(33, 27, 25), rgb(78, 52, 39));
+}
+
+.lgb {
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.lgb span {
+    color: white;
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+
+.lgb p {
+    color: #c7b299;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.lgb p::after {
+    position: absolute;
+    content: '';
+    top: 40px;
+    left: 97px;
+    width: 40px;
+    height: 2px;
+    background-color: white;
+}
+
+.lgb i {
+    color: #c7b299;
+    font-size: 38px;
+    font-weight: 300;
+
+}
+
+/* counter end */
+/* recent post start */
+.headings {
+    text-align: center;
+}
+
+.headings h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #555555;
+    padding-top: 80px;
+}
+
+.headings p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #8c8c8c;
+    line-height: 28px;
+    padding: 30px 180px 40px 180px;
+}
+
+.picture {
+    width: 33.33%;
+    position: relative;
+    float: left;
+}
+
+.eiovrla {
+    width: 370px;
+    height: 220px;
+    background-color: rgb(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.picture:hover .eiovrla {
+    opacity: 1;
+}
+
+.picture:hover .calender {
+    background-color: #c7b299;
+}
+
+.picture:hover .calendertwo {
+    background-color: #a48d72;
+}
+
+.picture:hover .detail-here-of {
+    background-color: #362f2d;
+    border-color: #362f2d;
+}
+
+.picture:hover .detail-here-of h3 {
+    color: #c7b299;
+}
+
+.picture:hover .detail-here-of p {
+    color: white;
+}
+
+.picture:hover .rdmre p {
+    color: #c7b299;
+}
+
+.calender {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background-color: #363636;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.4s;
+}
+
+.calendertwo {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    background-color: #252525;
+    top: 50px;
+    left: 10px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.4s;
+}
+
+.detail-here-of {
+    width: 338px;
+    padding-left: 30px;
+    border: 1px solid rgb(133, 132, 132);
+    transition: 0.4s;
+
+}
+
+.detail-here-of h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #555555;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    transition: 0.4s;
+}
+
+.detail-here-of p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #8c8c8c;
+    padding-bottom: 30px;
+    transition: 0.4s;
+}
+
+.rdmre {
+    cursor: pointer;
+}
+
+.rdmre p {
+    color: #c7b299;
+    font-size: 14px;
+    font-weight: 300;
+    transition: 0.4s;
+}
+
+.rdmre p i {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+/* .jhamelaishere i{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+} */
+.jhamelaishere {
+    position: relative;
+}
+
+.prev {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #c7b299;
+    color: #c7b299;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    top: 440px;
+    left: 48%;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.next {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #c7b299;
+    color: #c7b299;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    top: 440px;
+    left: 52%;
+    z-index: 99;
+    cursor: pointer;
+}
+
+/* recent post end */
+/* banner of logo start */
+#logobanner {
+    background: url(../images/logobanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 140px;
+    width: 100%;
+    height: 489px;
+}
+
+/* banner of logo end */
+#bottompart {
+    width: 100%;
+    background-color: #191919;
+}
+
+.onesect {
+    width: 25%;
+    float: left;
+    padding-bottom: 80px;
+}
+
+.btlogo h2 {
+    padding-top: 105px;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.waxoma h2 {
+    padding-top: 105px;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.waxoma p {
+    color: #363636;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.waxoma p::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 260px;
+    height: 1px;
+    background-color: #595f6f;
+}
+
+.waxoma h4 {
+    padding-top: 30px;
+    padding-bottom: 14px;
+    color: #555555;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    width: 260px;
+    line-height: 20px;
+}
+
+.waxomba h4 {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
+}
+
+.waxomba h4 span {
+    color: #959595;
+}
+
+.waxomba p {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #363636;
+    padding-top: 12px;
+}
+
+.btlogo p {
+    padding-top: 30px;
+    padding-bottom: 12px;
+    color: #363636;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.waxoma h4 span {
+    color: #00bff3;
+    cursor: pointer;
+}
+
+.btlogo h4 {
+    padding-bottom: 14px;
+    color: #555555;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    width: 260px;
+    line-height: 20px;
+    position: relative;
+}
+
+.btlogo h4::after {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 260px;
+    height: 1px;
+    background-color: #595f6f;
+}
+
+.loremna p {
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+}
+
+.loremna h4 {
+    padding-top: 15px;
+    color: #c7b299;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    width: 260px;
+    line-height: 20px;
+    position: relative;
+}
+
+.loremna h4::after {
+    position: absolute;
+    content: '';
+    top: 75px;
+    left: 0px;
+    width: 260px;
+    height: 1px;
+    background-color: #595f6f;
+}
+
+.decimal p {
+    color: #363636;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
+}
+
+.decimal h4 {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 14px;
+}
+
+.btlogo img {
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.loremn p {
+    color: #555555;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    width: 260px;
+}
+
+.mores {
+    padding-top: 30px;
+}
+
+.mores p {
+    color: #d1d1d1;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.mores p i {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.imagesheredri img {
+    margin-top: 30px;
+    width: 44%;
+    float: left;
+}
+.paddonahsaldh{
+    margin-left: 30px;
+}
+/* finish line */
+#filinshline {
+    width: 100%;
+    height: 100px;
+    background-color: #111111;
+}
+
+.ft {
+    float: left;
+    width: 50%;
+}
+
+.ft p {
+    color: #555555;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100px;
+}
+
+.grayco {
+    color: #959595;
+}
+
+.soilcl {
+    color: #c7b299;
+}
+
+.ftfi {
+    float: left;
+    width: 50%;
+}
+
+.ftfi p {
+    text-align: end;
+    line-height: 100px;
+    color: #555555;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
